@@ -1,0 +1,11 @@
+name: optimization-tf
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.9.7
+  - jupyterlab=3.2.4
+  - pip
+  - pip:
+    - tensorflow==2.7.0
